@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Convert this to a markd down README file that i can push to github
 
 What Is CloudFront?
 Amazon CloudFront is a content delivery service designed to accelerate the distribution of both static and dynamic web content. It achieves this by caching your content on a worldwide network of edge locations. When a user sends a request, CloudFront directs it to the nearest edge location, providing a rapid response without repeatedly accessing the origin server.
