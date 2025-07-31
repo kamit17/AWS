@@ -95,8 +95,6 @@ CloudFront’s **logging capabilities** capture detailed information including r
 ---
 ```
 
-This README file summarizes the key concepts and features of Amazon CloudFront for customers or developers to understand the service quickly and apply it effectively.
-
 <div style="text-align: center">⁂</div>
 
 [^1]: https://amnic.com/blogs/what-is-cloudfront
