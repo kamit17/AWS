@@ -66,3 +66,25 @@ Use Facebook, Twitter, Google etc. to access AWS resources.
 
 **Secret Access Key:**
 `oierWRhoefWORIOF/DFLWAnljef`
+
+Essential Characteristics of Cloud Computing
+💡 On demand self-service: A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider. Can provision capabilities as needed without requiring human interaction.
+
+Provision and terminate using a UI/CLI without human interaction.
+
+Broad network access: Capabilities are available over the network and accessed through standard mechanisms that promote use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops, and workstations). Capabilities are available over the network and accessed through standard mechanisms.
+
+Access services over any networks, on any devices, using standard protocols and methods.
+
+Resource pooling: The provider’s computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand. There is a sense of location independence in that the customer generally has no control or knowledge over the exact location of the provided resources but may be able to specify location at a higher level of abstraction (e.g., country, state, or datacenter). Examples of resources include storage, processing, memory, and network bandwidth. There is a sense of location independence… no control or knowledge over the exact location of the resources. Resources are pooled to serve multiple consumers using a multi-tenant model.
+
+Economies of scale, cheaper service.
+
+Rapid elasticity: Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand. To the consumer, the capabilities available for provisioning often appear to be unlimited and can be appropriated in any quantity at any time. Capabilities can be elastically provisioned and released to scale rapidly outward and inward with demand. To the consumers, the capabilities available for provisioning ofter appear to be unlimited.
+
+Scale UP (OUT) and DOWN (IN) automatically in response to system load.
+
+Measured service: Cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service. Resource usage can be monitored, controlled, reported and BILLED.
+
+Usage is measured. Pay for what you consume.
+
