@@ -88,3 +88,79 @@ Measured service: Cloud systems automatically control and optimize resource use 
 
 Usage is measured. Pay for what you consume.
 
+Elastic Compute Cloud (EC2) Basics
+EC2 is AWS’s implement of IaaS - Infrastructure as a Service Default compute service within AWS. Provide access to VMs known as instances
+
+EC2 Key Facts & Features
+IaaS - Provides Virtual Machines (Instances)
+Private service by default - uses VPC networking
+AZ resilient - Instance fails if AZ fails
+Different instance sizes and capabilities
+On-Demand Billing - Per second
+Local on-host storage or Elastic Block Store (EBS)
+Instance composition: CPU, memory, disk and networking. All four are billed when running. ❗
+Only disk storage is billed when stopped (EBS).
+Instance Lifecycle
+Running
+Stopped
+Terminated
+Amazon Machine Image (AMI)
+An EC2 instance can be created from an AMI, or an EC2 can be used to create an AMI
+Contains
+Permissions - who can and can’t use the AMI
+Public - Everyone can launch instances from that AMI (Linux and Windows)
+Owner - Implicit allow
+Explicit - specific AWS accounts allowed
+Boot Volume
+The drive that boots the OS
+Block Device Mapping
+Links the volumes the AMI have
+Mapping between volumes
+Connecting to EC2
+EC2 instances can run different OS’s
+Windows: RDP - Remote Desktop Protocol
+Protocol Port 3389
+Linux: SSH protocol
+Port 22
+Simple Storage Service (S3) Basics
+Global Storage Platform - regional based/resilient
+Data is replicated across AZs in that region
+Public service, unlimited data & multi-user
+Movies, audio, photos, text, large data sets
+Economical & accessed via UI/CLI/API/HTTP
+Should be your default storing point
+Objects & Buckets
+Objects is the data you store
+Buckets are container for objects
+S3 Objects
+A file made up of two parts: key and value
+E.g koala.jpg : koala-image
+Value is the content being stored
+0 - 5 TB data
+Version ID
+Metadata
+Access Control
+Subresources
+S3 Buckets
+Never leaves a region unless you configure it to do so
+A bucket is identified by its bucket name, which must be globally unique
+Often AWS stuff is only unique within an account or region - bucket is exception to this
+Unlimited Objects
+Flat Structure - all objects are stored at root level in the bucket
+Folders are prefixed names - but objects are still stored at the same level
+Summary
+Bucket names are globally unique
+3-63 characters, all lower case, no underscores
+Start with a lowercase letter or a number
+Can’t be IP formatted e.g. 1.1.1.1
+Buckets - 100 soft limit, 1000 hard per account
+Unlimited objects in bucket, 0 bytes to 5TB
+Key = Name, Value = Data
+ARN: Amazon Resource Name
+S3 Patterns and Anti-Patterns
+S3 is an object store - not file or block
+S3 has no file system - it is flat
+You can’t mount an S3 bucket as (K:\ or /images)
+Great for large scale data storage, distribution or upload
+Great for “offload”
+INPUT and/or OUTPUT to MANY AWS products
